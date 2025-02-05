@@ -4,10 +4,13 @@ body {
     align-items: center;
     height: 100vw;
     flex-direction: column;
+    background: hsla(60, 43%, 84%, 0.97);;
 }
 
 #gameboard {
+    margin: auto;
     display: flex;
+    border: 1px solid black;
 }
 
 .square {
